@@ -10,9 +10,9 @@ namespace Thotasael
     public class DBI
     {
         public const string RecordSubPath = "Record";
-
         public string Name { get; set; }
         public string MainDirectory { get; set; }
-        
+        public Dictionary<string, ArModel> Models { get; set; }
+        public Dictionary<string, ArInstanceList> ILs { get; set; }
     }
 }
