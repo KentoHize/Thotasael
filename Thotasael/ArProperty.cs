@@ -9,7 +9,6 @@ namespace Thotasael
     public class ArProperty
     {
         public string Name { get; set; }
-
         public bool Display { get; set; }
     }
 }

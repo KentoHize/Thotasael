@@ -28,5 +28,10 @@ namespace Thotasael
             
 
         }
+
+        public static void CreateModel()
+        {
+
+        }
     }
 }
